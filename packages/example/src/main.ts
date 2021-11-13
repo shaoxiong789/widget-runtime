@@ -5,7 +5,9 @@ const app = document.querySelector<HTMLDivElement>('#app')!
 
 class Screen extends Widget {
   render() {
-    return document.createElement('div')
+    const div = document.createElement('div')
+    div.innerHTML = '121'
+    return div
   }
 }
 
@@ -13,6 +15,11 @@ class Text extends Widget {
   render() {
     return document.createElement('div')
   }
+}
+
+const Widgets: any = {
+  "Screen": Screen,
+  "Text": Text
 }
 
 const DSL = [
@@ -35,7 +42,7 @@ const DSL = [
 function render(dsl: any[]): Node[] {
   
   return dsl.map((config) => {
-    const Type = config.Type;
+    const Type = Widgets[config.Type];
     return new Type({
       childs: config.children && render(config.children)
     })
