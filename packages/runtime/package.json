@@ -1,0 +1,32 @@
+{
+  "name": "runtime",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "丁少雄 <sx380449900@gmail.com>",
+  "homepage": "https://github.com/shaoxiong789/widget-runtime#readme",
+  "license": "ISC",
+  "main": "src/runtime.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaoxiong789/widget-runtime.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/shaoxiong789/widget-runtime/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
