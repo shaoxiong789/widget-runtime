@@ -1,11 +1,12 @@
 {
-  "name": "runtime",
+  "name": "widget",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "丁少雄 <sx380449900@gmail.com>",
   "homepage": "https://github.com/shaoxiong789/widget-runtime#readme",
   "license": "ISC",
   "main": "src/runtime.ts",
+  "types": "widget.d.ts",
   "directories": {
     "src": "src",
     "test": "__tests__"

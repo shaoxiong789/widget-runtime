@@ -14,8 +14,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "jsx": "react",
-    "jsxFactory": "aoife",
-    "jsxFragmentFactory": "aoife.Frag"
+    "jsxFactory": "h",
+    // "jsxFragmentFactory": "aoife.Frag"
   },
   "include": ["./src"]
 }
